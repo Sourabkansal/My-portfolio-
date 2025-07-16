@@ -2,60 +2,81 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/skins/color-1.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
-  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
-  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
-  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sourab Kumar | Web Developer Portfolio</title>
+  <meta name="description"
+    content="I’m Sourab Kumar, a passionate web developer skilled in HTML, CSS, JavaScript, ReactJS, and Node.js. Explore my work and get in touch to build your next project!" />
+  <meta name="keywords"
+    content="Sourab Kumar, Web Developer, Portfolio, HTML, CSS, JavaScript, ReactJS, Node.js, Projects" />
+  <meta name="author" content="Sourab Kumar" />
 
-  <link rel="stylesheet" href="css/style-switcher.css">
+  <!-- Open Graph (for social sharing) -->
+  <meta property="og:title" content="Sourab Kumar | Web Developer" />
+  <meta property="og:description"
+    content="Web developer portfolio showcasing projects built with HTML, CSS, JavaScript, ReactJS, Node.js." />
+  <meta property="og:image" content="image/photo_6240189857766948898_y.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourwebsite.com" />
 
+  <!-- Favicon -->
+  <link rel="icon" href="image/favicon.png" type="image/png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/skins/color-1.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled />
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled />
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled />
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled />
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled />
+  <link rel="stylesheet" href="css/style-switcher.css" />
 </head>
 
 <body>
   <div class="main-container">
-    <div class="aside">
+    <header class="aside">
       <div class="logo">
-        <a href="#"> <span>S</span>ourab</a>
+        <a href="#"><span>S</span>ourab</a>
       </div>
-      <div class="nav-toggler">
-        <span></span>
-      </div>
+      <nav>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+          <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+          <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+          <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <ul class="nav">
-        <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
-        <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
-        <!-- <li><a href="#"><i class="fa fa-list"></i>Services</a></li> -->
-        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
-      </ul>
-    </div>
-    <div class="main-content">
-      <section class="home section " id="home">
+    <main class="main-content">
+      <!-- Home Section -->
+      <section class="home section" id="home">
         <div class="container">
           <div class="row">
-            <div class="home-info  padd-15">
-              <h3 class="hello">Hello , my name is <span class="name">Sourab kumar</span></h3>
-              <h3 class="my-pofession">I' m a <span class="typing">Web devloper</span></h3>
-              <p>I' m a Web devloper with extensive experince of 6 months . My expertise is to create a web page ....</p>
+            <div class="home-info padd-15">
+              <h1 class="hello">Hello, I'm <span class="name">Sourab Kumar</span></h1>
+              <h2 class="my-profession">I’m a <span class="typing">Web Developer</span></h2>
+              <p>I’m a web developer with 6 months of experience. My expertise is in building modern web pages with
+                clean and responsive designs.</p>
               <a href="#contact" class="btn hire-me">Hire Me</a>
             </div>
             <div class="home-image padd-15">
-              <img src="image\photo_6240189857766948898_y.jpg">
+              <img src="image/photo_6240189857766948898_y.jpg" alt="Sourab Kumar Profile Photo">
             </div>
           </div>
         </div>
       </section>
 
-      <!-- about-->
-      <section class="about section " id="about">
+      <!-- About Section -->
+      <section class="about section" id="about">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -66,120 +87,111 @@
             <div class="about-content padd-15">
               <div class="row">
                 <div class="about-text padd-15">
-                  <h3>I'm Sourab kumar and <span>Web Developer</span></h3>
-                  <p>My journey into web development began during my academic years, where I discovered a fascination
-                    with coding and design. Over the past few years, I’ve honed my skills in various programming
-                    languages and technologies, including HTML, CSS, JavaScript, and popular frameworks like React and
-                    Node.js.</p>
+                  <h3>I'm Sourab Kumar and a <span>Web Developer</span></h3>
+                  <p>My journey into web development began during my academic years. Over the past few years, I’ve
+                    learned various programming languages and technologies, including HTML, CSS, JavaScript, ReactJS,
+                    and Node.js.</p>
                 </div>
               </div>
               <div class="row">
                 <div class="personal-info padd-15">
                   <div class="row">
                     <div class="info-item padd-15">
-                      <p>Birthday : <span>15 April 2004</span></p>
+                      <p>Birthday: <span>15 April 2004</span></p>
                     </div>
                     <div class="info-item padd-15">
-                      <p>Age : <span>20</span></p>
+                      <p>Age: <span>20</span></p>
                     </div>
                     <div class="info-item padd-15">
-                      <p>Linkedin : <span>@sourab-kansal</span></p>
+                      <p>LinkedIn: <span>@sourab-kansal</span></p>
                     </div>
                     <div class="info-item padd-15">
-                      <p>E-mail : <span>Sourabkansal661@gmail.com</span></p>
+                      <p>Email: <span>Sourabkansal661@gmail.com</span></p>
                     </div>
                     <div class="info-item padd-15">
-                      <p>Degree : <span>BCA</span></p>
+                      <p>Degree: <span>BCA</span></p>
                     </div>
                     <div class="info-item padd-15">
-                      <p>Phone : <span> +91 7888721300</span></p>
+                      <p>Phone: <span>+91 7888721300</span></p>
                     </div>
                     <div class="info-item padd-15">
-                      <p>City : <span>LehraGaga</span></p>
+                      <p>City: <span>LehraGaga</span></p>
                     </div>
                     <div class="info-item padd-15">
-                      <p>Fresher : <span>Yes</span></p>
+                      <p>Fresher: <span>Yes</span></p>
                     </div>
                   </div>
                   <div class="row">
                     <div class="buttons padd-15">
-                      <a href="CV\SOURAB KUMAR CV1.pdf (2).pdf" download class="btn">Download CV</a>
-                      <a href="#contact" class="btn hire-me">Hire me </a>
-
+                      <a href="CV/SOURAB_KUMAR_CV1.pdf" download class="btn">Download CV</a>
+                      <a href="#contact" class="btn hire-me">Hire Me</a>
                     </div>
                   </div>
                 </div>
+
                 <div class="skills padd-15">
                   <div class="row">
                     <div class="skill-item padd-15">
-                      <h5>Html / CSS </h5>
+                      <h5>HTML / CSS</h5>
                       <div class="progress">
                         <div class="progress-in" style="width: 76%"></div>
                         <div class="skill-percent">76%</div>
                       </div>
                     </div>
                     <div class="skill-item padd-15">
-                      <h5>JS</h5>
+                      <h5>JavaScript</h5>
                       <div class="progress">
-                        <div class="progress-in" style="width: 86%;"></div>
+                        <div class="progress-in" style="width: 86%"></div>
                         <div class="skill-percent">86%</div>
                       </div>
                     </div>
                     <div class="skill-item padd-15">
                       <h5>ReactJS</h5>
                       <div class="progress">
-                        <div class="progress-in" style="width: 75%;"></div>
+                        <div class="progress-in" style="width: 75%"></div>
                         <div class="skill-percent">75%</div>
                       </div>
                     </div>
                     <div class="skill-item padd-15">
-                      <h5>JAVA</h5>
+                      <h5>Java</h5>
                       <div class="progress">
-                        <div class="progress-in" style="width: 66%;"></div>
+                        <div class="progress-in" style="width: 66%"></div>
                         <div class="skill-percent">66%</div>
                       </div>
                     </div>
                   </div>
-
                 </div>
               </div>
+
               <div class="row">
                 <div class="education padd-15">
                   <h3 class="title">Education</h3>
                   <div class="row">
                     <div class="timeline-box padd-15">
                       <div class="timeline shadow-dark">
-
                         <div class="timeline-item">
                           <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i>2021-2024
-                          </h3>
+                          <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2021-2024</h3>
                           <h4 class="timeline-title">Bachelor of Computer Applications</h4>
-                          <p class="timeline-text">Graduated with a <span style="font-weight: bold;">72.89%</span> from
-                            Ranbir College, Sangrur, affiliated with
-                            Punjabi University. During my studies, I acquired a solid foundation in computer science
-                            principles, programming, and web development</p>
+                          <p class="timeline-text">Graduated with <strong>72.89%</strong> from Ranbir College,
+                            Sangrur, affiliated with Punjabi University. Learned computer science fundamentals,
+                            programming, and web development.</p>
                         </div>
 
                         <div class="timeline-item">
                           <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i>2019-2021
-                          </h3>
-                          <h4 class="timeline-title">Higher Secondary School Certificate (12th Grade)</h4>
-                          <p class="timeline-text"> I have Completed My 12th with a <span
-                              style="font-weight: bold;">79.5% </span>from Adarsh Senior Secondary
-                            School. </p>
+                          <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2019-2021</h3>
+                          <h4 class="timeline-title">Higher Secondary School Certificate</h4>
+                          <p class="timeline-text">Completed 12th with <strong>79.5%</strong> from Adarsh Senior
+                            Secondary School.</p>
                         </div>
+
                         <div class="timeline-item">
                           <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i>2019
-                          </h3>
-                          <h4 class="timeline-title">Secondary School Certificate (10th Grade)</h4>
-                          <p class="timeline-text">I have Completed My 10th with a <span style="font-weight: bold;">
-                              67.7% </span>from Punjab Public School.</p>
+                          <h3 class="timeline-date"><i class="fa fa-calendar"></i> 2019</h3>
+                          <h4 class="timeline-title">Secondary School Certificate</h4>
+                          <p class="timeline-text">Completed 10th with <strong>67.7%</strong> from Punjab Public
+                            School.</p>
                         </div>
                       </div>
                     </div>
@@ -187,27 +199,20 @@
                 </div>
 
                 <div class="experince padd-15">
-                  <h3 class="title">Certification</h3>
+                  <h3 class="title">Certifications</h3>
                   <div class="row">
                     <div class="timeline-box padd-15">
                       <div class="timeline shadow-dark">
-
                         <div class="timeline-item">
                           <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                          </h3>
-                          <h4 class="timeline-title">Completing the course of DSA with JAVA</h4>
-                          <p class="timeline-text">Completed a comprehensive course from Apna College, under guidance of
-                            Shradha Khapra. This certification provided me with in-depth knowledge and practical skills
-                            in Java programming and data structures</p>
+                          <h4 class="timeline-title">Data Structures and Algorithms with Java</h4>
+                          <p class="timeline-text">Completed from Apna College under Shradha Khapra. Learned practical
+                            skills in Java and DSA.</p>
                         </div>
-
                         <div class="timeline-item">
                           <div class="circle-dot"></div>
-
-                          <h4 class="timeline-title">Completing the course of GIT & GITHUB</h4>
-                          <p class="timeline-text">Completed an in-depth course on Git and GitHub through Udemy. This
-                            certification equipped me with essential skills</p>
+                          <h4 class="timeline-title">Git & GitHub</h4>
+                          <p class="timeline-text">Completed an in-depth course on Git & GitHub through Udemy.</p>
                         </div>
                       </div>
                     </div>
@@ -218,8 +223,9 @@
           </div>
         </div>
       </section>
-      <!-- Portfolio start -->
-      <section class="Portfolio section  " id="portfolio">
+
+      <!-- Portfolio Section -->
+      <section class="Portfolio section" id="portfolio">
         <div class="container">
           <div class="row">
             <div class="section-title padd-15">
@@ -228,27 +234,28 @@
           </div>
           <div class="row">
             <div class="portfolio-heading padd-15">
-              <h2>My Projects:-</h2>
+              <h3>My Projects:</h3>
             </div>
           </div>
           <div class="row projectct">
-            
             <div class="portfolio-item padd-15">
               <div class="portfolio-item-inner shadow-dark">
                 <div class="Portfolio-img">
-                  <a href="https://shopflick.netlify.app/"><img class="imgg" src="image\Screenshot (549).png"></a>
+                  <a href="https://shopflick.netlify.app/">
+                    <img class="imgg" src="image/Screenshot (549).png" alt="ShopFlick Project Screenshot">
+                  </a>
                 </div>
               </div>
             </div>
-
             <div class="portfolio-item padd-15">
               <div class="portfolio-item-inner shadow-dark">
                 <div class="Portfolio-img">
-                  <a href="https://sangrurbus.netlify.app"><img class="imgg" src="image\Screenshot (482).png"></a>
+                  <a href="https://sangrurbus.netlify.app">
+                    <img class="imgg" src="image/Screenshot (482).png" alt="SangrurBus Project Screenshot">
+                  </a>
                 </div>
               </div>
             </div>
-            
             <div class="portfolio-item padd-15">
               <div class="portfolio-item-inner shadow-dark">
                 <div class="Portfolio-img">
@@ -263,11 +270,12 @@
                 </div>
               </div>
             </div>
-
+           
           </div>
         </div>
       </section>
 
+      <!-- Contact Section -->
       <section class="contact-section" id="contact">
         <div class="container">
           <div class="row">
@@ -275,51 +283,50 @@
               <h2>Contact Me</h2>
             </div>
           </div>
-          <h3 class="contact-title padd-15"> Have you any Question ?</h3>
+          <h3 class="contact-title padd-15">Got a question?</h3>
           <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICE</h4>
           <div class="row">
             <div class="contact-info-item padd-15">
               <div class="icon"><i class="fa fa-phone"></i></div>
-              <h4>Call me on </h4>
+              <h4>Call Me</h4>
               <p>+91 7888721300</p>
             </div>
-            <div class="contact-info-item padd-15 ">
+            <div class="contact-info-item padd-15">
               <div class="icon"><i class="fa fa-envelope"></i></div>
               <h4>Email</h4>
               <p>Sourabkansal661@gmail.com</p>
             </div>
             <div class="contact-info-item padd-15">
               <div class="icon"><i class="fa fa-github"></i></div>
-              <h4>Github </h4>
+              <h4>GitHub</h4>
               <p>SourabKansal</p>
             </div>
             <div class="contact-info-item padd-15">
               <div class="icon"><i class="fa fa-whatsapp"></i></div>
-              <h4>Whatsapp </h4>
-              <p>7888721300</p>
+              <h4>WhatsApp</h4>
+              <p>+91 7888721300</p>
             </div>
           </div>
-          <h3 class="contact-title padd-15"> SEND ME AN EMAIL</h3>
+          <h3 class="contact-title padd-15">Send Me a Message</h3>
           <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
           <div class="row">
             <div class="contact-form padd-15">
               <div class="row">
                 <div class="form-item col-6 padd-15">
                   <div class="form-group padd-15">
-                    <input type="text " class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" placeholder="Name" />
                   </div>
                 </div>
                 <div class="form-item col-6 padd-15">
                   <div class="form-group padd-15">
-                    <input type="email " class="form-control" placeholder="Email">
+                    <input type="email" class="form-control" placeholder="Email" />
                   </div>
                 </div>
               </div>
-
               <div class="row">
                 <div class="form-item col-6 padd-15">
                   <div class="form-group padd-15">
-                    <input type="text " class="form-control" placeholder="Subject">
+                    <input type="text" class="form-control" placeholder="Subject" />
                   </div>
                 </div>
                 <div class="form-item col-6 padd-15">
@@ -327,22 +334,21 @@
                     <textarea class="form-control" placeholder="Message"></textarea>
                   </div>
                 </div>
-
               </div>
               <div class="row">
                 <div class="form-item col-12 padd-15">
-                  <button type="submit" class="btn padd-15 ">Send Message</button>
+                  <button type="submit" class="btn padd-15">Send Message</button>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
-
       </section>
+    </main>
 
-
-    </div>
+    <footer>
+      <p style="text-align: center;">&copy; 2025 Sourab Kumar. All rights reserved.</p>
+    </footer>
   </div>
 
   <div class="style-switcher">
@@ -350,23 +356,20 @@
       <i class="fa fa-cog fa-spin"></i>
     </div>
     <div class="day-night s-icon">
-      <i class="fas "></i>
+      <i class="fas"></i>
     </div>
-    <h4>Theme colors</h4>
+    <h4>Theme Colors</h4>
     <div class="colors">
       <span class="color-1" onclick="setActiveStyle('color-1')"></span>
       <span class="color-2" onclick="setActiveStyle('color-2')"></span>
       <span class="color-3" onclick="setActiveStyle('color-3')"></span>
       <span class="color-4" onclick="setActiveStyle('color-4')"></span>
       <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-
-
     </div>
   </div>
 
   <script src="script.js"></script>
   <script src="style-switcher.js"></script>
-
 </body>
 
 </html>
